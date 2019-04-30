@@ -5,8 +5,8 @@ import math
 values = []
 coords = []
 
-fileInput = input('Enter a file: ')
-filepath = Path(fileInput)
+fileInput = input('Enter a file: ') # This will be your csv file of coords
+filepath = Path(fileInput) # This will be the filepath to your coords
 
 distanceConstant = float(input('Enter a distance constant: '))
 
